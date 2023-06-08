@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.bg-image{
+    height: 100vh;
+    width: 100%;
+    background: url(./photo-1505144808419-1957a94ca61e.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+.container{
+padding: 100px;
+
+}
+h1{
+    font-size:50px;
+
+}
+p{
+    color: grey;
+}
+@media (max-width:500px) {
+    .container{
+        padding: 10px;
+    }
+}
